@@ -28,3 +28,6 @@ Thumbs.db
 .idea/
 # Downloaded model cache
 backend/models/hf-cache/
+
+backend/.env.example
+frontend/.env.example
