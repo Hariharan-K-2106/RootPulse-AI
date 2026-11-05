@@ -1,0 +1,30 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Local data
+*.sqlite
+*.sqlite3
+*.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# OS and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Downloaded model cache
+backend/models/hf-cache/
